@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proxies",
+  "info": {
+    "singularName": "proxy",
+    "pluralName": "proxies",
+    "displayName": "proxy",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IP": {
+      "type": "string"
+    },
+    "port": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "anonymity": {
+      "type": "string"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

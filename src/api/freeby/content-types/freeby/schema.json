@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "freebies",
+  "info": {
+    "singularName": "freeby",
+    "pluralName": "freebies",
+    "displayName": "freeby"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IP": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "port": {
+      "type": "string"
+    },
+    "anonymity": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
